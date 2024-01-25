@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+  }
+  
+  
+  body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  
+  header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: #c5c0c0;
+  }
+  
+
+  .titular{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  h1{
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-weight: 300;
+      letter-spacing: 2px;
+      font-size: 54px;
+      color: white;
+  }
+  
+
+  
+  .proyectos{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      cursor:pointer; cursor: hand;
+  }
+  .proyecto1{
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      gap: 30px;
+  }
+  h2{
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-weight: 100;
+      letter-spacing: 2px;
+      font-size: 28px;
+      color: white;
+      text-align: center;
+  }
+  .pro_foto{
+      width: 100%;
+      height: 300px;
+      max-width: 1440px;
+      display: flex;
+      flex-direction: row;
+      justify-content:center;
+      align-items:center;
+      /* para que no salga la imagen */
+      overflow: hidden;
+      border: 3px solid white;
+  }
+  .pro_foto a{
+      width: 100%;
+      height: 100%;
+  }
+  .pro_foto img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 800ms;
+  }
+  .pro_foto img:hover{
+      transition: 800ms;
+      -webkit-transform:scale(1.3);
+      transform: scale(1.3);
+  }
+
+  .firma{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .firma img{
+    width: 40%;
+  }
