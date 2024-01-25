@@ -24,7 +24,8 @@ header {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    background-color: #c5c0c0;
+    /* background-color: #c5c0c0; */
+    background-image: url(../img/fondo.jpg);
 }
 
 
