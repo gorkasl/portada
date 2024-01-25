@@ -25,7 +25,7 @@ header {
     align-items: center;
     gap: 50px;
     /* background-color: #c5c0c0; */
-    background-image: url(../img/fondo.jpg);
+    background-image: url("../img/fondo.jpg");
 }
 
 
@@ -117,6 +117,3 @@ h2 {
 .firma img {
     width: 40%;
 }
-
-
-
